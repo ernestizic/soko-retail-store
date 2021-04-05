@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,100 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.App {
+  color: #827e7e;
+}
+.logo-nav {
+  padding: 12px;
+  border-bottom: 1px solid grey;
+  padding-left: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-nav .bag-account ul{
+  display: flex;
+  list-style-type: none;
+}
+.logo-nav .bag-account ul li{
+  margin-top: 25px;
+  margin-right: 80px;
+}
+
+.ad {
+  background-color: #2766cc;
+  color: #fff;
+  padding: 5px 60px;
+}
+.category{
+  padding-top: 30px;
+}
+.category ul{
+  list-style-type: none;
+  display: block
+}
+.category ul li{
+  padding: 6px;
+}
+
+.search {
+  position: absolute;
+  top: 130px;
+  left: 30%;
+}
+.search .search-input{
+  width: 500px;
+  padding: 5px;
+  background-color: #F0F0F0;
+}
+.search button {
+  border-left: none;
+  padding: 5px;
+  width: 40px;
+  color: #827e7e;
+  background-color: #f8DE4B;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.main {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.bag {
+  padding-top: 30px;
+}
+
+.product-row {
+  margin-bottom: 10px;
+}
+.product-row p {
+  padding: none;
+}
+.product-row button {
+  margin-top: 60%;
+  border-color: #2766cc;
+  color: #2766cc;
+  background-color: inherit;
+}
+
+.mid-ad {
+  background-color: #2766cc;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mid-ad p{
+  padding: 20px;
+  color: #fff;
+}
+.last-foot {
+  text-align: center;
+  padding: 20px 0;
+}
+.last-foot button {
+  background-color: #25D366;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
 }
